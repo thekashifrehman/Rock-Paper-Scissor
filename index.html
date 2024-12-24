@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Choices Section -->
+    <div class="container">
+        <img class="choice" src="rock.png" id="rock" alt="Rock">
+        <img class="choice" src="paper.png" id="paper" alt="Paper">
+        <img class="choice" src="scissors.png" id="scissors" alt="Scissors">
+    </div>
+
+    <!-- Scoreboard Section -->
+    <div class="scoreboard">
+        <div class="score">
+            <h2 id="your-score">0</h2>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <h2 id="comp-score">0</h2>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <!-- Message Box Section -->
+    <div class="message-box">
+        <p id="msg">Make Your Move!</p>
+    </div>
+
+    <!-- Buttons for Reset and Multiplayer -->
+    <div class="buttons">
+        <button id="reset" class="btn">Reset Game</button>
+        <button id="multiplayer" class="btn">Multiplayer (Coming Soon)</button>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+</html>
